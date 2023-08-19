@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+
+  font-family: "Ubuntu", sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.body {
+  width: 100%;
+}
+
+.flex-d {
+  display: flex;
+}
+
+/* .mainstyle="background-color: black; height: 100vh; */
+#navbar {
+  width: 100%;
+  position: fixed;
+  height: 9vh;
+  color: black;
+  display: flex;
+  gap: 15rem;
+  background-color: rgb(228, 228, 234);
+  z-index: 999;
+}
+.left img {
+  width: 14vh;
+  padding-left: 2rem;
+}
+nav ul {
+  /* background-color: black; */
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  font-size: 20px;
+}
+nav ul a {
+  color: black;
+}
+
+/* #hero img{
+  width: 100%;
+  height: 50vh;
+} */
+#hero {
+  border: 2px solid rgb(8, 8, 8);
+  width: 100%;
+  height: 73vh;
+  background-image: url(img/heropage.webp);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#space {
+  margin-top: 5rem;
+  margin-left: 13rem;
+  padding: 40px 15px;
+  padding-left: 30px;
+  width: 70%;
+  height: 18vh;
+  border: 1px solid transparent;
+  background-color: rgba(40, 39, 44, 0.8);
+  border-radius: 5px;
+}
+#tagline {
+  font-size: x-large;
+  margin-top: 5rem;
+  margin-left: 27rem;
+  width: 50%;
+  height: 17vh;
+  /* border: 1px solid rgb(3, 3, 3); */
+}
+#searchbarmain {
+  gap: 0px;
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  width: 100%;
+  margin: auto;
+}
+
+.input1 {
+  height: 40px;
+  width: 70%;
+}
+.input1 .searchinput {
+  height: 40px;
+  width: 100%;
+}
+
+.input2 {
+  height: 40px;
+
+  display: flex;
+  gap: 0px;
+}
+/* .rangeBox ul{
+ overflow: auto;
+} */
+
+.dropdownbtn:hover {
+  color: rgb(237, 239, 236);
+  background-color: black;
+}
+
+.dropdownbudget {
+  position: relative;
+  display: inline-block;
+}
+.dropdownproperty {
+  position: relative;
+  /* width: 20%; */
+  /* height: 70px; */
+}
+.rangeBoxfixed {
+  display: flex;
+}
+.dropdownbudget:hover .contentBox {
+  display: block;
+}
+.contentBox {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 130px;
+  /* z-index: 1; */
+}
+.properties {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 130px;
+  /* z-index: 1; */
+}
+.dropdownproperty:hover .properties {
+  display: block;
+}
+.dropdownbtn1 {
+  /* font-size: 40px; */
+  height: 40px;
+  width: 130px;
+}
+.dropdownbtn2 {
+  /* font-size: 40px; */
+  height: 40px;
+  width: 130px;
+}
+.search {
+  background-color: green;
+  border-radius: 14px;
+  font-size: 23px;
+  width: 122px;
+  height: 40px;
+}
+
+.dropdownmenu .contentBox {
+  padding: 10px 15px;
+  margin-right: 5px;
+  max-height: 350px;
+  overflow: hidden;
+  overflow-y: auto;
+  /* display: block; */
+}
+.maxBox {
+  margin-left: 4rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 100%;
+  background-color: rgb(101, 109, 109);
+}
+
+.main .first {
+  margin-top: 20px;
+  margin-left: 20px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  gap: 5rem;
+}
+
+.featuredproperties{
+  color: rgb(15, 3, 3);
+  width: 50%;
+  margin: auto;
+}
+
+
+
+
+/* for enquiry form  */
+
+
+.enquiry{
+  width: 35vw;
+  
+}
+.container{
+  display: flex;
+flex-direction: column;
+gap: 2.5rem;
+}
+
+
+.container form{
+display: flex;
+flex-direction: column;
+gap: 1.5rem;
+}
