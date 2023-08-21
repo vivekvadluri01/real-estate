@@ -207,6 +207,7 @@ nav ul a {
 /* for enquiry form  */
 
 
+<<<<<<< HEAD
 .enquiry{
   width: 35vw;
   
@@ -222,4 +223,8 @@ gap: 2.5rem;
 display: flex;
 flex-direction: column;
 gap: 1.5rem;
+=======
+.container{
+ 
+>>>>>>> 648ba5497ae74117315b56b5a39c0d91f4daea32
 }
