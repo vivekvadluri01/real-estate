@@ -17,6 +17,7 @@ html,
 body {
   width: 100%;
   height: 100%;
+  overflow-x: hidden;
 }
 .body {
   width: 100%;
@@ -34,7 +35,8 @@ body {
   color: black;
   display: flex;
   gap: 15rem;
-  background-color: rgb(228, 228, 234);
+  background-color: rgb(237, 237, 238);
+  /* background-color: rgba(17, 18, 15, 0.216); */
   z-index: 999;
 }
 .left img {
@@ -59,7 +61,7 @@ nav ul a {
 #hero {
   border: 2px solid rgb(8, 8, 8);
   width: 100%;
-  height: 73vh;
+  height: 75vh;
   background-image: url(img/heropage.webp);
   background-position: bottom;
   background-size: cover;
@@ -95,7 +97,7 @@ nav ul a {
 
 .input1 {
   height: 40px;
-  width: 70%;
+  width: 50%;
 }
 .input1 .searchinput {
   height: 40px;
@@ -104,7 +106,7 @@ nav ul a {
 
 .input2 {
   height: 40px;
-
+  width: 50%;
   display: flex;
   gap: 0px;
 }
@@ -118,10 +120,12 @@ nav ul a {
 }
 
 .dropdownbudget {
+  width: 50%;
   position: relative;
   display: inline-block;
 }
 .dropdownproperty {
+  width: 50%;
   position: relative;
   /* width: 20%; */
   /* height: 70px; */
@@ -152,12 +156,12 @@ nav ul a {
 .dropdownbtn1 {
   /* font-size: 40px; */
   height: 40px;
-  width: 130px;
+  width: 100%;
 }
 .dropdownbtn2 {
   /* font-size: 40px; */
   height: 40px;
-  width: 130px;
+  width: 100%;
 }
 .search {
   background-color: green;
@@ -183,8 +187,9 @@ nav ul a {
   display: flex;
   flex-direction: column;
   padding: 20px;
-  width: 100%;
-  background-color: rgb(101, 109, 109);
+  width: 80%;
+  background-color: rgba(14, 15, 15, 0.659);
+  /* background-color: antiquewhite; */
 }
 
 .main .first {
@@ -193,6 +198,7 @@ nav ul a {
   padding-left: 20px;
   margin-bottom: 20px;
   gap: 5rem;
+
 }
 
 .featuredproperties{
@@ -203,28 +209,120 @@ nav ul a {
 
 
 
+.photos{
+
+  width: 100%;
+}
+
+
 
 /* for enquiry form  */
 
+.container{
 
-<<<<<<< HEAD
-.enquiry{
-  width: 35vw;
+  background-color: antiquewhite;
+  width: 100%;
+  height: 100%;
   
 }
-.container{
-  display: flex;
-flex-direction: column;
-gap: 2.5rem;
+.enquiry{
+  height: 90%;
+  /* gap: 1rem;
+  flex-direction:column ; */
+  width: 100%; 
+   /* background-color: antiquewhite; */
+}
+.e{
+  height: 90%;
+  gap: 1rem;
+  flex-direction:column ;
+  width: 100%; 
+   /* background-color: antiquewhite; */
 }
 
 
-.container form{
-display: flex;
-flex-direction: column;
-gap: 1.5rem;
-=======
-.container{
- 
->>>>>>> 648ba5497ae74117315b56b5a39c0d91f4daea32
+
+
+
+.footer{
+  color: white;
+  width: 100%;
+  height: auto;
+  background-color: black;
+}
+.row1{
+  justify-content: space-between;
+  padding: 3rem;
+}
+.column1{
+  width: 20%;
+}
+ .anchor{
+  flex-direction: column;
+  text-align: center;
+}
+
+.anchor a{
+  color: white;
+  text-decoration: none;
+}
+
+.row2{
+  /* text-decoration: none;
+  margin: 2rem; */
+  /* text-align: center; */
+  justify-content: space-between;
+  padding-right: 4rem  ;
+  padding-left: 4rem  ;
+}
+.row2 i{
+  color: white;
+  font-size: xx-large;
+}
+
+.companyname{
+  font-size: x-large;
+  text-align: center;
+}
+.sm a{
+  text-decoration: none;
+}
+
+
+
+/* testimonial */
+
+.testimonial{
+  margin: 3rem;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  gap: 2rem;
+}
+
+
+.r1{
+  display: flex;
+  justify-content: center;
+}
+
+.r2 {
+  justify-content: center;
+  gap: 5rem;
+
+}
+.t{
+  padding: 2rem;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  height: 25vh;
+  border: 2px solid black;
+}
+
+.sticky{
+  position: fixed;
+  top: 0;
+
 }
