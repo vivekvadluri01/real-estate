@@ -1,114 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="login.css">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="login.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <nav id="navbar">
-        <div class="left">
-          <img src="img/logo-removebg-preview.png" alt="">
-  
-        </div>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Finance</a></li>
-          <li><a href="#">Contact Us</a></li>
-          <li><a href="#">Login</a></li>
-        </ul>
-      </nav>
-    <div class="container">
-        <form action="/action_page.php">
-          <div class="row">
-            <h2 style="text-align:center">Login with Social Media or Manually</h2>
-            <div class="vl">
-              <span class="vl-innertext">or</span>
-            </div>
-      
-            <div class="col">
-              <a href="#" class="fb btn">
-                <i class="fa fa-facebook fa-fw"></i> Login with Facebook
-              </a>
-              <a href="#" class="twitter btn">
-                <i class="fa fa-twitter fa-fw"></i> Login with Twitter
-              </a>
-              <a href="#" class="google btn">
-                <i class="fa fa-google fa-fw"></i> Login with Google+
-              </a>
-            </div>
-      
-            <div class="col">
-              <div class="hide-md-lg">
-                <p>Or sign in manually:</p>
-              </div>
-      
-              <input type="text" name="username" placeholder="Username" required>
-              <input type="password" name="password" placeholder="Password" required>
-              <input type="submit" value="Login">
-            </div>
-      
-          </div>
-        </form>
+      <div class="left">
+        <img src="img/logo-removebg-preview.png" alt="" />
       </div>
-      
-      <div class="bottom-container">
-        <div class="row">
-          <div class="col">
-            <a href="#" style="color:white" class="btn">Sign up</a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Finance</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Login</a></li>
+      </ul>
+    </nav>
+
+    <div id="login" style="background-color: aqua;">
+      <div class="container">
+        <div class="r1"><h2>Log in</h2></div>
+        <div class="r2">
+          <div class="email"><label for="email">
+            <span>Email</span>
+             <span>Need an account?
+              <span>Sign up</span>
+             </span>
+          </label>
+        </div>
+          <div class="emailinput">
+            <input type="email" value="" >
           </div>
-          <div class="col">
-            <a href="#" style="color:white" class="btn">Forgot password?</a>
+        </div>
+        <div class="r3">
+          <div class="password">
+            <label for="password"><span>Password</span></label>
+            <span><i class="ri-eye-line"></i>Show</span>
+
+          </div>
+          <div class="passwordinput">
+            <input type="password">
+          </div>
+        </div>
+        <div class="r4"></div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="row1 flex-d">
+        <div class="column1">
+          <h3>Contact Us</h3>
+          <p>
+            <i class="ri-map-pin-line"></i>&nbsp;&nbsp;Plot No. 27/A, Samta
+            Colony Vidhya Vihar, Convent School Road, behind S.P. Law College,
+            Biyani Nagar, Tukum, Chandrapur, Maharashtra 442401
+          </p>
+          <p>Email : xxxxx@gmail.com</p>
+          <p><i class="ri-smartphone-line"></i>&nbsp;&nbsp;+91 ***********</p>
+          <p><i class="ri-whatsapp-line"></i> &nbsp;&nbsp;+91 ***********</p>
+        </div>
+
+        <div class="column2">
+          <h3>General Links</h3>
+          <div class="anchor flex-d">
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <!-- <a href="#">Services</a> -->
+            <a href="#">Testimonials</a>
+            <a href="#">Finance</a>
+          </div>
+        </div>
+        <div class="column3">
+          <h3>Our Services</h3>
+          <div class="anchor flex-d">
+            <a href="#">Builders & Developers</a>
+            <a href="#">Buy Properties</a>
+            <a href="#">Finance Facilities</a>
           </div>
         </div>
       </div>
-      <div class="footer">
-        <div class="row1 flex-d">
-          <div class="column1 ">
-            <h3>Contact Us</h3>
-            <p><i class="ri-map-pin-line"></i>&nbsp;&nbsp;Plot No. 27/A, Samta Colony Vidhya Vihar, Convent School Road,
-              behind S.P. Law College, Biyani Nagar, Tukum, Chandrapur, Maharashtra 442401</p>
-            <p>Email : xxxxx@gmail.com</p>
-            <p><i class="ri-smartphone-line"></i>&nbsp;&nbsp;+91 ***********</p>
-            <p><i class="ri-whatsapp-line"></i> &nbsp;&nbsp;+91 ***********</p>
-          </div>
-  
-          <div class="column2 ">
-            <h3>General Links</h3>
-            <div class="anchor flex-d">
-              <a href="#">Home</a>
-              <a href="#">About Us</a>
-              <!-- <a href="#">Services</a> -->
-              <a href="#">Testimonials</a>
-              <a href="#">Finance</a>
-            </div>
-          </div>
-          <div class="column3">
-            <h3>Our Services</h3>
-            <div class="anchor flex-d">
-              <a href="#">Builders & Developers</a>
-              <a href="#">Buy Properties</a>
-              <a href="#">Finance Facilities</a>
-            </div>
-          </div>
+      <hr />
+      <div class="row2 flex-d">
+        <div class="companyname">
+          <p>
+            All Rights Reserved. <strong>Magical Umbrella Real Estate</strong>
+          </p>
         </div>
-        <hr>
-        <div class="row2 flex-d">
-          <div class="companyname">
-            <p>All Rights Reserved. <strong>Magical Umbrella Real Estate</strong></p>
-          </div>
-          <div class="sm">
-            <a href="#"><i class="ri-instagram-line"></i></a>
-            <a href="#"><i class="ri-facebook-box-line"></i></a>
-            <a href="#"><i class="ri-linkedin-box-line"></i></a>
-            <a href="#"><i class="ri-telegram-line"></i></a>
-          </div>
+        <div class="sm">
+          <a href="#"><i class="ri-instagram-line"></i></a>
+          <a href="#"><i class="ri-facebook-box-line"></i></a>
+          <a href="#"><i class="ri-linkedin-box-line"></i></a>
+          <a href="#"><i class="ri-telegram-line"></i></a>
         </div>
-  
       </div>
-</body>
+    </div>
+  </body>
 </html>

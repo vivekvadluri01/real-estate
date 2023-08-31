@@ -27,7 +27,7 @@ body {
   display: flex;
 }
 
-/* .mainstyle="background-color: black; height: 100vh; */
+/* navbar styling */
 #navbar {
   width: 100%;
   position: fixed;
@@ -36,7 +36,6 @@ body {
   display: flex;
   gap: 15rem;
   background-color: rgb(237, 237, 238);
-  /* background-color: rgba(17, 18, 15, 0.216); */
   z-index: 999;
 }
 .left img {
@@ -65,10 +64,7 @@ nav ul a:hover {
   cursor: pointer;
 }
 
-/* #hero img{
-  width: 100%;
-  height: 50vh;
-} */
+
 #hero {
   border: 2px solid rgb(8, 8, 8);
   width: 100%;
@@ -95,13 +91,10 @@ nav ul a:hover {
   margin-left: 27rem;
   width: 50%;
   height: 17vh;
-  /* border: 1px solid rgb(3, 3, 3); */
 }
 #searchbarmain {
   gap: 0px;
   display: flex;
-  /* align-items: center; */
-  /* justify-content: center; */
   width: 100%;
   margin: auto;
 }
@@ -121,10 +114,6 @@ nav ul a:hover {
   display: flex;
   gap: 0px;
 }
-/* .rangeBox ul{
- overflow: auto;
-} */
-
 .dropdownbtn:hover {
   color: rgb(237, 239, 236);
   background-color: black;
@@ -138,8 +127,6 @@ nav ul a:hover {
 .dropdownproperty {
   width: 50%;
   position: relative;
-  /* width: 20%; */
-  /* height: 70px; */
 }
 .rangeBoxfixed {
   display: flex;
@@ -152,25 +139,21 @@ nav ul a:hover {
   position: absolute;
   background-color: #f1f1f1;
   min-width: 130px;
-  /* z-index: 1; */
 }
 .properties {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
   min-width: 130px;
-  /* z-index: 1; */
 }
 .dropdownproperty:hover .properties {
   display: block;
 }
 .dropdownbtn1 {
-  /* font-size: 40px; */
   height: 40px;
   width: 100%;
 }
 .dropdownbtn2 {
-  /* font-size: 40px; */
   height: 40px;
   width: 100%;
 }
@@ -188,7 +171,6 @@ nav ul a:hover {
   max-height: 350px;
   overflow: hidden;
   overflow-y: auto;
-  /* display: block; */
 }
 .maxBox {
   margin-left: 4rem;
@@ -200,7 +182,6 @@ nav ul a:hover {
   padding: 20px;
   width: 80%;
   background-color: rgba(14, 15, 15, 0.659);
-  /* background-color: antiquewhite; */
 }
 
 .main .first {
@@ -227,7 +208,7 @@ nav ul a:hover {
 
 
 
-/* for enquiry form  */
+/* styling for enquiry form  */
 
 .container{
 
@@ -238,23 +219,19 @@ nav ul a:hover {
 }
 .enquiry{
   height: 90%;
-  /* gap: 1rem;
-  flex-direction:column ; */
   width: 100%; 
-   /* background-color: antiquewhite; */
 }
 .e{
   height: 90%;
   gap: 1rem;
   flex-direction:column ;
   width: 100%; 
-   /* background-color: antiquewhite; */
 }
 
 
 
 
-
+/* styling for footer */
 .footer{
   color: white;
   width: 100%;
@@ -279,9 +256,6 @@ nav ul a:hover {
 }
 
 .row2{
-  /* text-decoration: none;
-  margin: 2rem; */
-  /* text-align: center; */
   justify-content: space-between;
   padding-right: 4rem  ;
   padding-left: 4rem  ;
@@ -301,7 +275,7 @@ nav ul a:hover {
 
 
 
-/* testimonial */
+/* testimonial stylimg */
 
 .testimonial{
   margin: 3rem;
