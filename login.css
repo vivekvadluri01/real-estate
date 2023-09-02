@@ -71,8 +71,8 @@ nav ul a:hover {
 .container{
   width: 30%;
   height:80%;
-  border-left: 2px solid rgb(12, 11, 11);
-  border-right: 2px solid rgb(12, 11, 11);
+  border-left: 2px solid  rgba(0, 0, 0, 0.184);
+  border-right: 2px solid rgba(0, 0, 0, 0.184);
   margin: auto;
   margin-top: 7rem;
   display: flex;
@@ -82,6 +82,7 @@ nav ul a:hover {
 }
 .r2{
   width: 90%;
+  height: auto;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -94,7 +95,9 @@ nav ul a:hover {
 
 .emailinput{
   width: 100%;
-  border: 1px solid black;
+  height: 6vh;
+  border: 1px solid rgba(0, 0, 0, 0.184);
+  border-radius: 5px;
 }
 .emailinput input{
   width: 100%;
@@ -105,8 +108,10 @@ nav ul a:hover {
   justify-content: space-between;
 }
 .passwordinput{
+  height: 6vh;
   width: 100%;
-  border: 1px solid black;
+  border: 1px solid rgba(0, 0, 0, 0.184);
+  border-radius: 5px;
 }
 .passwordinput input{
   width: 100%;
@@ -126,26 +131,33 @@ nav ul a:hover {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  text-align: center;
 }
 .facebook{
+  color: #fff;
   width: 90%;
-  font-size: 1.3rem;
-  font-weight: 500;
+  font-size: 1rem;
   height: 5vh;
   margin: auto;
   background-color: #1877F2;
   text-align: center;
   border-radius: 20px;
 }
+.facebook i{
+  font-size: 1.2rem;
+}
 .google{
+  color: #fff;
   width: 90%;
-  font-size: 1.3rem;
-  font-weight: 500;
+  font-size: 1rem;
   height: 5vh;
   margin: auto;
-  background-color: #fff;
+  background-color: #f83636;
   text-align: center;
   border-radius: 20px;
+}
+.google i{
+  font-size: 1.2rem;
 }
  
 
