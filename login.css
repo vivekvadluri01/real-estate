@@ -71,10 +71,89 @@ nav ul a:hover {
 .container{
   width: 30%;
   height:80%;
-  border: 2px solid red;
+  border-left: 2px solid rgb(12, 11, 11);
+  border-right: 2px solid rgb(12, 11, 11);
   margin: auto;
   margin-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
 }
+.r2{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.email{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.emailinput{
+  width: 100%;
+  border: 1px solid black;
+}
+.emailinput input{
+  width: 100%;
+}
+.password{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.passwordinput{
+  width: 100%;
+  border: 1px solid black;
+}
+.passwordinput input{
+  width: 100%;
+}
+.login{
+  width: 90%;
+  font-size: 1.3rem;
+  font-weight: 500;
+  height: 5vh;
+  margin: auto;
+  background-color: rgb(67, 172, 67);
+  text-align: center;
+  border-radius: 20px;
+}
+.r4{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.facebook{
+  width: 90%;
+  font-size: 1.3rem;
+  font-weight: 500;
+  height: 5vh;
+  margin: auto;
+  background-color: #1877F2;
+  text-align: center;
+  border-radius: 20px;
+}
+.google{
+  width: 90%;
+  font-size: 1.3rem;
+  font-weight: 500;
+  height: 5vh;
+  margin: auto;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 20px;
+}
+ 
+
+
+
+
+
+
 
 /* footer styling */
   .footer{
