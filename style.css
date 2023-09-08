@@ -134,8 +134,9 @@ nav ul a:hover {
   display: block;
 }
 .contentBox {
+  width: 100%;
   display: none;
-  position: absolute;
+  /* position: absolute; */
   background-color: #f1f1f1;
   min-width: 130px;
   z-index: 999;
@@ -166,22 +167,44 @@ nav ul a:hover {
 }
 
 .dropdownmenu .contentBox {
+  margin: auto;
   padding: 10px 15px;
   margin-right: 5px;
   max-height: 350px;
   overflow: hidden;
   overflow-y: auto;
 }
+.dropdownmenu{
+  width: 100%;
+  height: auto;
+}
 .rangeBox{
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  margin: auto;
+    gap: 0.5rem;
+}
+#click1{
+  width: 50%;
+}
+#click2{
   width: 50%;
 }
 
 #maxBox {
+  width: 50%;
   /* display: none; */
-  margin-left: 4rem;  
+  margin-left: 4rem; 
+  text-align: center;
+  justify-content: center; 
 }
 #minBox {
-  display: none;
+  width: 50%;
+  /* display: none; */
+  text-align: center;
+  justify-content: center;
 }
 
 .main {
