@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Real Estate</title>
+  <script src="script.js"></script>
   <link rel="stylesheet" type="text/css" href="style.css">
 
   <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
@@ -15,7 +16,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
-
+</head>
 
 <body>
   <div class="body">
@@ -29,7 +30,7 @@
         <li><a href="#">About Us</a></li>
         <li><a href="#">Services</a></li>
         <li><a href="#">Finance</a></li>
-        <li><a href="#">Contact Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
         <li><a href="login.html">Login</a></li>
       </ul>
     </nav>
@@ -57,32 +58,18 @@
               </button>
               <div class="dropdownmenu">
                 <div class="contentBox">
-                  <div class="rangeBoxfixed">
-                    <div class="minBox"><input type="text" class="minput" placeholder="Minimum">
+                  <div class="rangeBox flex-d">
+                    <div class="min">
+                      <input id="click1"  type="text" class="minput" placeholder="Minimum">
+                      
                     </div>
-                    <div class="maxBox"><input type="text" class="minput" placeholder="No Max">
+                    <div class="max">
+                      <input id="click2" type="text" class="minput" placeholder="Maximum">
+                      
                     </div>
                   </div>
                   <div class="rangeBox flex-d">
-                    <div class="minBox">
-                      <ul style="display: block;">
-                        <li value="500000" textval="₹ 5 Lac">₹ 5 Lac</li>
-                        <li value="1000000" textval="₹ 10 Lac">₹ 10 Lac</li>
-                        <li value="1500000" textval="₹ 15 Lac">₹ 15 Lac</li>
-                        <li value="2000000" textval="₹ 20 Lac">₹ 20 Lac</li>
-                        <li value="2500000" textval="₹ 25 Lac">₹ 25 Lac</li>
-                        <li value="3000000" textval="₹ 30 Lac">₹ 30 Lac</li>
-                        <li value="4000000" textval="₹ 40 Lac">₹ 40 Lac</li>
-                        <li value="5000000" textval="₹ 50 Lac">₹ 50 Lac</li>
-                        <li value="6000000" textval="₹ 60 Lac">₹ 60 Lac</li>
-                        <li value="7500000" textval="₹ 75 Lac">₹ 75 Lac</li>
-                        <li value="9000000" textval="₹ 90 Lac">₹ 90 Lac</li>
-                        <li value="10000000" textval="₹ 1 Cr.">₹ 1 Cr.</li>
-                        <li value="12500000" textval="₹ 1.25 Cr.">₹ 1.25 Cr.</li>
-                        <li value="15000000" textval="₹ 1.5 Cr.">₹ 1.5 Cr.</li>
-                      </ul>
-                    </div>
-                    <div class="maxBox">
+                    <div id="minBox">
                       <ul>
                         <li value="500000" textval="₹ 5 Lac">₹ 5 Lac</li>
                         <li value="1000000" textval="₹ 10 Lac">₹ 10 Lac</li>
@@ -100,6 +87,25 @@
                         <li value="15000000" textval="₹ 1.5 Cr.">₹ 1.5 Cr.</li>
                       </ul>
                     </div>
+                    <div id="maxBox">
+                      <ul>
+                        <li value="1000000" textval="₹ 10 Lac">₹ 10 Lac</li>
+                        <li value="1500000" textval="₹ 15 Lac">₹ 15 Lac</li>
+                        <li value="2000000" textval="₹ 20 Lac">₹ 20 Lac</li>
+                        <li value="2500000" textval="₹ 25 Lac">₹ 25 Lac</li>
+                        <li value="3000000" textval="₹ 30 Lac">₹ 30 Lac</li>
+                        <li value="4000000" textval="₹ 40 Lac">₹ 40 Lac</li>
+                        <li value="5000000" textval="₹ 50 Lac">₹ 50 Lac</li>
+                        <li value="6000000" textval="₹ 60 Lac">₹ 60 Lac</li>
+                        <li value="7500000" textval="₹ 75 Lac">₹ 75 Lac</li>
+                        <li value="9000000" textval="₹ 90 Lac">₹ 90 Lac</li>
+                        <li value="10000000" textval="₹ 1 Cr.">₹ 1 Cr.</li>
+                        <li value="12500000" textval="₹ 1.25 Cr.">₹ 1.25 Cr.</li>
+                        <li value="15000000" textval="₹ 1.5 Cr.">₹ 1.5 Cr.</li>
+                        <li value="15000000" textval="₹ 1.5 Cr.">₹ 5 Cr.</li>
+                      </ul>
+                    </div>
+                    
                   </div>
                 </div>
               </div>
@@ -227,7 +233,7 @@
 
 
       </div>
-      <div id="enquiry" class="enquiry">
+      <div id="enquiry">
         <div class="container">
           <form class="e flex-d">
             <h1 style="padding-left: 1.5em;">Enquiry Form</h1>

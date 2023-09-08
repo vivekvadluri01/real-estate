@@ -78,7 +78,8 @@ nav ul a:hover {
   margin-top: 5rem;
   margin-left: 13rem;
   padding: 40px 15px;
-  padding-left: 30px;
+  padding-left: 30px; 
+  
   width: 70%;
   height: 18vh;
   border: 1px solid transparent;
@@ -128,9 +129,7 @@ nav ul a:hover {
   width: 50%;
   position: relative;
 }
-.rangeBoxfixed {
-  display: flex;
-}
+
 .dropdownbudget:hover .contentBox {
   display: block;
 }
@@ -139,6 +138,7 @@ nav ul a:hover {
   position: absolute;
   background-color: #f1f1f1;
   min-width: 130px;
+  z-index: 999;
 }
 .properties {
   display: none;
@@ -172,8 +172,16 @@ nav ul a:hover {
   overflow: hidden;
   overflow-y: auto;
 }
-.maxBox {
-  margin-left: 4rem;
+.rangeBox{
+  width: 50%;
+}
+
+#maxBox {
+  /* display: none; */
+  margin-left: 4rem;  
+}
+#minBox {
+  display: none;
 }
 
 .main {
@@ -217,7 +225,7 @@ nav ul a:hover {
   height: 100%;
   
 }
-.enquiry{
+#enquiry{
   height: 90%;
   width: 100%; 
 }
