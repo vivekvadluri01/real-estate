@@ -69,9 +69,9 @@ nav ul a:hover {
   border: 2px solid rgb(8, 8, 8);
   width: 100%;
   height: 75vh;
-  background-image: url(img/heropage.webp);
+  background-image: url(img/peakpx.jpg);
   background-position: bottom;
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
 }
 #space {
@@ -94,23 +94,24 @@ nav ul a:hover {
   height: 17vh;
 }
 #searchbarmain {
-  gap: 0px;
   display: flex;
   width: 100%;
-  margin: auto;
+  /* margin: auto; */
 }
 
 .input1 {
-  height: 40px;
+  height: 6vh;
   width: 50%;
 }
 .input1 .searchinput {
-  height: 40px;
+  height: 6vh;
   width: 100%;
+  border-bottom-left-radius: 14px;
+  border-top-left-radius: 14px;
 }
 
 .input2 {
-  height: 40px;
+  height: 6vh;
   width: 50%;
   display: flex;
   gap: 0px;
@@ -123,7 +124,6 @@ nav ul a:hover {
 .dropdownbudget {
   width: 50%;
   position: relative;
-  display: inline-block;
 }
 .dropdownproperty {
   width: 50%;
@@ -136,41 +136,45 @@ nav ul a:hover {
 .contentBox {
   width: 100%;
   display: none;
-  /* position: absolute; */
+  position: absolute;
   background-color: #f1f1f1;
-  min-width: 130px;
+  min-width: 20rem;
   z-index: 999;
 }
+
 .properties {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  min-width: 130px;
+  min-width: 8.1rem;
 }
 .dropdownproperty:hover .properties {
   display: block;
 }
 .dropdownbtn1 {
-  height: 40px;
+  height: 6vh;
   width: 100%;
 }
 .dropdownbtn2 {
-  height: 40px;
+  height: 6vh;
   width: 100%;
+  border-bottom-right-radius: 14px;
+  border-top-right-radius: 14px;
+
 }
 .search {
   background-color: green;
   border-radius: 14px;
   font-size: 23px;
-  width: 122px;
-  height: 40px;
+  width: 8rem;
+  height: 6vh;
 }
 
 .dropdownmenu .contentBox {
   margin: auto;
   padding: 10px 15px;
   margin-right: 5px;
-  max-height: 350px;
+  max-height: 22rem;
   overflow: hidden;
   overflow-y: auto;
 }
@@ -179,12 +183,8 @@ nav ul a:hover {
   height: auto;
 }
 .rangeBox{
-  text-align: center;
-  justify-content: center;
-  width: 100%;
-  height: auto;
-  margin: auto;
-    gap: 0.5rem;
+    text-align: center;
+    z-index: 999;
 }
 #click1{
   width: 50%;
@@ -195,24 +195,31 @@ nav ul a:hover {
 
 #maxBox {
   width: 50%;
-  /* display: none; */
-  margin-left: 4rem; 
-  text-align: center;
-  justify-content: center; 
+  display: none;
+  /* margin-left: 4rem;  */
+  /* text-align: center; */
+  /* justify-content: center;  */
 }
+#maxBox ul{
+   width: 6rem;
+}
+
 #minBox {
   width: 50%;
-  /* display: none; */
+  display: none;
   text-align: center;
   justify-content: center;
+}
+#minBox ul{
+  width: 6rem;
 }
 
 .main {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 2rem;
   width: 80%;
-  background-color: rgba(14, 15, 15, 0.659);
+  background-color: rgba(41, 40, 40, 0.177);
 }
 
 .main .first {
@@ -233,7 +240,7 @@ nav ul a:hover {
 
 
 .photos{
-
+   background-image: url(img/cool-blue.avif);
   width: 100%;
 }
 
@@ -243,14 +250,21 @@ nav ul a:hover {
 
 .container{
 
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
   width: 100%;
   height: 100%;
   
 }
 #enquiry{
   height: 90%;
-  width: 100%; 
+  width: 30%; 
+}
+#enquiry {
+  position: sticky;
+  top: 4rem; /* Stick to the top of the viewport */
+  background-color: #1a1a1a8b; /* Add background color for better visibility */
+  z-index: 100; /* Adjust the z-index as needed to layer it above other content */
+  padding: 20px; /* Add padding for spacing */
 }
 .e{
   height: 90%;
@@ -267,14 +281,18 @@ nav ul a:hover {
   color: white;
   width: 100%;
   height: auto;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.819) ;
 }
 .row1{
   justify-content: space-between;
   padding: 3rem;
 }
 .column1{
+  color: #fff;
   width: 20%;
+}
+.column1 a{
+  color: #fff;
 }
  .anchor{
   flex-direction: column;
@@ -300,10 +318,13 @@ nav ul a:hover {
   font-size: x-large;
   text-align: center;
 }
-.sm a{
-  text-decoration: none;
+.sm {
+  display: block;
 }
 
+.sm a img{
+  width: 2vw;
+}
 
 
 /* testimonial stylimg */
@@ -337,8 +358,3 @@ nav ul a:hover {
   border: 2px solid black;
 }
 
-.sticky{
-  position: fixed;
-  top: 0;
-
-}

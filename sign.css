@@ -71,7 +71,7 @@ nav ul a:hover {
 /* login styling */
 #login {
   /* background-image: url(https://t4.ftcdn.net/jpg/02/68/80/71/240_F_268807166_oPVMMlJcxy4OjBDkl9JPxqfJeMC98yNm.jpg); */
-  background-image: url(https://t3.ftcdn.net/jpg/03/03/57/00/240_F_303570054_NXBYGgQABt5HPUkRgi9SjQVgMbD7iymv.jpg);
+  background-image: url(https://img.freepik.com/free-vector/shiny-white-gray-background-with-wavy-lines_1017-25101.jpg?size=626&ext=jpg&ga=GA1.1.2129738571.1693420939&semt=ais);
   background-position:center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -83,7 +83,6 @@ nav ul a:hover {
 
 .container {
   padding: 2rem;
-  background-color: #fff;
   width: 30%;
   height: 80%;
   border-left: 2px solid rgba(0, 0, 0, 0.184);
