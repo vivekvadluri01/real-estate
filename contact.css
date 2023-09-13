@@ -65,21 +65,11 @@ nav ul a:hover {
 }
 
 .main{
+  margin-top: 4rem;
   background-image: url(img/pexels-photo-821754.webp);
 }
 
-
-.con{
-  width: 50%;
-}
-.form{
-  width: 100%;
-    height: 100%;
-    padding: 7rem;
-}
-
-
-/* styling for enquiry form  */
+/* styling for contact us form  */
 
 .container{
     padding :  7rem ;
@@ -116,42 +106,50 @@ nav ul a:hover {
 
 /* styling for footer */
 .footer{
-    color: white;
-    width: 100%;
-    height: auto;
-    background-color: black;
-  }
-  .row1{
-    justify-content: space-between;
-    padding: 3rem;
-  }
-  .column1{
-    width: 20%;
-  }
-   .anchor{
-    flex-direction: column;
-    text-align: center;
-  }
-  
-  .anchor a{
-    color: white;
-    text-decoration: none;
-  }
-  
-  .row2{
-    justify-content: space-between;
-    padding-right: 4rem  ;
-    padding-left: 4rem  ;
-  }
-  .row2 i{
-    color: white;
-    font-size: xx-large;
-  }
-  
-  .companyname{
-    font-size: x-large;
-    text-align: center;
-  }
-  .sm a{
-    text-decoration: none;
-  }
+  color: white;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.819) ;
+}
+.row1{
+  justify-content: space-between;
+  padding: 3rem;
+}
+.column1{
+  color: #fff;
+  width: 20%;
+}
+.column1 a{
+  color: #fff;
+}
+ .anchor{
+  flex-direction: column;
+  text-align: center;
+}
+
+.anchor a{
+  color: white;
+  text-decoration: none;
+}
+
+.row2{
+  justify-content: space-between;
+  padding-right: 4rem  ;
+  padding-left: 4rem  ;
+}
+.row2 i{
+  color: white;
+  font-size: xx-large;
+}
+
+.companyname{
+  font-size: x-large;
+  text-align: center;
+}
+.sm {
+  display: block;
+}
+
+.sm a img{
+  width: 2vw;
+}

@@ -70,7 +70,6 @@ nav ul a:hover {
 
 /* login styling */
 #login {
-  /* background-image: url(https://t4.ftcdn.net/jpg/02/68/80/71/240_F_268807166_oPVMMlJcxy4OjBDkl9JPxqfJeMC98yNm.jpg); */
   background-image: url(https://img.freepik.com/free-vector/shiny-white-gray-background-with-wavy-lines_1017-25101.jpg?size=626&ext=jpg&ga=GA1.1.2129738571.1693420939&semt=ais);
   background-position:center center;
   background-repeat: no-repeat;
@@ -198,49 +197,52 @@ nav ul a:hover {
 
 
 
-/* footer styling */
-.footer {
+/* styling for footer */
+.footer{
   color: white;
   width: 100%;
   height: auto;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.819) ;
 }
-
-.row1 {
+.row1{
   justify-content: space-between;
   padding: 3rem;
 }
-
-.column1 {
+.column1{
+  color: #fff;
   width: 20%;
 }
-
-.anchor {
+.column1 a{
+  color: #fff;
+}
+ .anchor{
   flex-direction: column;
   text-align: center;
 }
 
-.anchor a {
+.anchor a{
   color: white;
   text-decoration: none;
 }
 
-.row2 {
+.row2{
   justify-content: space-between;
-  padding-right: 4rem;
-  padding-left: 4rem;
+  padding-right: 4rem  ;
+  padding-left: 4rem  ;
 }
-
-.row2 i {
+.row2 i{
   color: white;
   font-size: xx-large;
 }
 
-.companyname {
+.companyname{
   font-size: x-large;
   text-align: center;
 }
+.sm {
+  display: block;
+}
 
-.sm a {
-  text-decoration: none;
+.sm a img{
+  width: 2vw;
 }
