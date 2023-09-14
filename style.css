@@ -258,18 +258,19 @@ nav ul a:hover {
   
 }
 #enquiry{
-  height: 90%;
+  height: 100%;
   width: 30%; 
 }
 #enquiry {
-  position: sticky;
-  top: 4rem; /* Stick to the top of the viewport */
+  position: sticky; 
+  top: 4rem;
+   /* Stick to the top of the viewport */
   background-color: #1a1a1a8b; /* Add background color for better visibility */
   z-index: 100; /* Adjust the z-index as needed to layer it above other content */
   padding: 20px; /* Add padding for spacing */
 }
 .e{
-  height: 90%;
+  height: 100%;
   gap: 1rem;
   flex-direction:column ;
   width: 100%; 
@@ -332,7 +333,8 @@ nav ul a:hover {
 /* testimonial stylimg */
 
 .testimonial{
-  margin: 3rem;
+  background-image: url(img/cool-blue.avif);
+  padding: 3rem;
   flex-direction: column;
   justify-content: center;
   width: 100%;

@@ -36,7 +36,7 @@ body {
   color: black;
   display: flex;
   gap: 15rem;
-  background-color: rgba(247, 246, 242, 0.599);
+  background-color: #fff;
   z-index: 999;
 }
 
@@ -70,7 +70,8 @@ nav ul a:hover {
 
 /* login styling */
 #login {
-  background-image: url(https://img.freepik.com/free-vector/shiny-white-gray-background-with-wavy-lines_1017-25101.jpg?size=626&ext=jpg&ga=GA1.1.2129738571.1693420939&semt=ais);
+  position: relative;
+  background-image: url(img/cool-blue.avif);
   background-position:center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -93,6 +94,23 @@ nav ul a:hover {
   align-items: center;
   gap: 2rem;
 }
+.con {
+  position: absolute;
+  top: 0;
+  left: 33rem;
+  padding: 2rem;
+  width: 30%;
+  height: 80%;
+  border-left: 2px solid rgba(0, 0, 0, 0.184);
+  border-right: 2px solid rgba(0, 0, 0, 0.184);
+  margin: auto;
+  margin-top: 7rem;
+  display: flex;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
 
 .r2 {
   width: 90%;
@@ -106,27 +124,30 @@ nav ul a:hover {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  cursor: pointer;
 }
 
 .emailinput {
   width: 100%;
-  height: 6vh;
+  height: 5vh;
   border: 1px solid rgba(0, 0, 0, 0.184);
   border-radius: 5px;
 }
 
 .emailinput input {
   width: 100%;
+  height: 5vh;
 }
 
 .password {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  cursor: pointer;
 }
 
 .passwordinput {
-  height: 6vh;
+  height: 5vh;
   width: 100%;
   border: 1px solid rgba(0, 0, 0, 0.184);
   border-radius: 5px;
@@ -134,6 +155,7 @@ nav ul a:hover {
 
 .passwordinput input {
   width: 100%;
+  height: 5vh;
 }
 
 .login {
