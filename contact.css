@@ -19,12 +19,27 @@ body {
   height: 100%;
   overflow-x: hidden;
 }
+
 .body {
   width: 100%;
 }
 
+a {
+  font-size: 1.4rem;
+  text-decoration: none !important;
+  color: black !important;
+}
+
 .flex-d {
   display: flex;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+:root {
+  --primary-color: (green);
 }
 
 /* navbar styling */
@@ -34,31 +49,42 @@ body {
   height: 9vh;
   color: black;
   display: flex;
-  gap: 15rem;
-  background-color: rgb(237, 237, 238);
-  z-index: 999;
+  padding-right: 1rem;
+  justify-content: space-between;
+  border: 2px solid black;
+  background-color: #fff;
+  z-index: 1000;
 }
+
 .left img {
-  width: 14vh;
-  padding-left: 2rem;
+  width: auto;
+  padding-left: 1rem;
 }
+
+.left h4 {
+  padding-top: 15px;
+  align-self: center;
+  color: rgb(14, 35, 171);
+}
+
 nav ul {
   margin-top: 1rem;
   /* background-color: black; */
   display: flex;
   align-items: center;
   gap: 50px;
-  font-size: 20px;
 }
-nav ul a {
+
+nav ul {
   font-weight: 1000;
   font-size: 22px;
   color: black;
   text-decoration: none;
 }
+
 nav ul a:hover {
   background-color: black;
-  color: rgb(221, 214, 214);
+  color: white !important;
   border-radius: 5PX;
   text-decoration: none;
   cursor: pointer;
@@ -71,8 +97,8 @@ nav ul a:hover {
 
 /* styling for contact us form  */
 
-.container{
-    padding :  7rem ;
+.con{
+    padding :  6rem ;
     /* background-color: antiquewhite; */
     width: 50%;
     height: 100%;
@@ -105,51 +131,68 @@ nav ul a:hover {
 
 
 /* styling for footer */
-.footer{
+.footer {
   color: white;
   width: 100%;
   height: auto;
-  background-color: rgba(0, 0, 0, 0.819) ;
+  background-color: rgba(0, 0, 0, 0.819);
 }
-.row1{
+
+.row1 {
   justify-content: space-between;
   padding: 3rem;
 }
-.column1{
+
+.column1 {
   color: #fff;
   width: 20%;
 }
-.column1 a{
-  color: #fff;
+
+.column1 p {
+  margin-top: 15px;
 }
- .anchor{
+
+.column1 a {
+  color: #fff !important;
+}
+
+.anchor {
   flex-direction: column;
   text-align: center;
 }
 
-.anchor a{
-  color: white;
-  text-decoration: none;
-}
-
-.row2{
-  justify-content: space-between;
-  padding-right: 4rem  ;
-  padding-left: 4rem  ;
-}
-.row2 i{
-  color: white;
-  font-size: xx-large;
-}
-
-.companyname{
-  font-size: x-large;
+.column3 {
   text-align: center;
 }
+
+.anchor a {
+  color: white !important;
+}
+
+a:hover {
+  color: black !important;
+}
+
+.row2 {
+  justify-content: space-between;
+  padding-right: 4rem;
+  padding-left: 4rem;
+}
+
+.row2 i {
+  color: white;
+  font-size: 20px;
+}
+
+.companyname {
+  font-size: 15px;
+  text-align: center;
+}
+
 .sm {
   display: block;
 }
 
-.sm a img{
+.sm a img {
   width: 2vw;
 }

@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Real Estate</title>
     <script src="script.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="respo.css">
 
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
+      rel="stylesheet">
 
     <!-- google font link  -->
     <!-- <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap"
@@ -25,17 +25,18 @@
 
   <body>
       <nav id="navbar">
-        <div class="left">
+        <div class="left flex-d">
           <img src="img/logo-removebg-preview.png" alt="" />
+          <h4>Real Estate</h4>
         </div>
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Services</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
           <li><a href="#">Finance</a></li>
           <li><a href="contact.html">Contact Us</a></li>
         </ul>
-        <button><ul><li><a href="sign.html">Login/Sign Up</a></li></ul></button>
+        <ul><li><a href="sign.html">Login/Sign Up</a></li></ul>
       </nav>
       <section id="hero">
         <div id="tagline">
@@ -97,7 +98,7 @@
                           </ul>
                         </div>
                       </div>
-
+                      <div><span>-</span></div>
                       <div class="max">
                         <input
                           id="click2"
@@ -130,52 +131,7 @@
                         </div>
                       </div>
                     </div>
-                    <!-- <div class="rangeBox flex-d">
-                      <div id="minBox">
-                        <ul>
-                          <li value="500000" textval="₹ 5 Lac">₹ 5 Lac</li>
-                          <li value="1000000" textval="₹ 10 Lac">₹ 10 Lac</li>
-                          <li value="1500000" textval="₹ 15 Lac">₹ 15 Lac</li>
-                          <li value="2000000" textval="₹ 20 Lac">₹ 20 Lac</li>
-                          <li value="2500000" textval="₹ 25 Lac">₹ 25 Lac</li>
-                          <li value="3000000" textval="₹ 30 Lac">₹ 30 Lac</li>
-                          <li value="4000000" textval="₹ 40 Lac">₹ 40 Lac</li>
-                          <li value="5000000" textval="₹ 50 Lac">₹ 50 Lac</li>
-                          <li value="6000000" textval="₹ 60 Lac">₹ 60 Lac</li>
-                          <li value="7500000" textval="₹ 75 Lac">₹ 75 Lac</li>
-                          <li value="9000000" textval="₹ 90 Lac">₹ 90 Lac</li>
-                          <li value="10000000" textval="₹ 1 Cr.">₹ 1 Cr.</li>
-                          <li value="12500000" textval="₹ 1.25 Cr.">
-                            ₹ 1.25 Cr.
-                          </li>
-                          <li value="15000000" textval="₹ 1.5 Cr.">
-                            ₹ 1.5 Cr.
-                          </li>
-                        </ul>
-                      </div>
-                    
 
-                    <div id="maxBox">
-                      <ul>
-                        <li value="1000000" textval="₹ 10 Lac">₹ 10 Lac</li>
-                        <li value="1500000" textval="₹ 15 Lac">₹ 15 Lac</li>
-                        <li value="2000000" textval="₹ 20 Lac">₹ 20 Lac</li>
-                        <li value="2500000" textval="₹ 25 Lac">₹ 25 Lac</li>
-                        <li value="3000000" textval="₹ 30 Lac">₹ 30 Lac</li>
-                        <li value="4000000" textval="₹ 40 Lac">₹ 40 Lac</li>
-                        <li value="5000000" textval="₹ 50 Lac">₹ 50 Lac</li>
-                        <li value="6000000" textval="₹ 60 Lac">₹ 60 Lac</li>
-                        <li value="7500000" textval="₹ 75 Lac">₹ 75 Lac</li>
-                        <li value="9000000" textval="₹ 90 Lac">₹ 90 Lac</li>
-                        <li value="10000000" textval="₹ 1 Cr.">₹ 1 Cr.</li>
-                        <li value="12500000" textval="₹ 1.25 Cr.">
-                          ₹ 1.25 Cr.
-                        </li>
-                        <li value="15000000" textval="₹ 1.5 Cr.">₹ 1.5 Cr.</li>
-                        <li value="15000000" textval="₹ 1.5 Cr.">₹ 5 Cr.</li>
-                      </ul>
-                    </div>
-                  </div> -->
                   </div>
                 </div>
               </div>
@@ -212,7 +168,7 @@
       <section class="photos flex-d">
         <div class="main">
           <div class="featuredproperties">
-            <h1><em>...Featured Properties...</em></h1>
+            <h2><em>...Featured Properties...</em></h2>
           </div>
           <div class="first flex-d">
             <div class="card" style="width: 18rem">
@@ -325,22 +281,22 @@
         <div id="enquiry">
           <div class="container">
             <form class="e flex-d">
-              <h1 style="padding-left: 1.5em">Enquiry Form</h1>
+              <h2 style="padding-left: 1.5em">Enquiry Form</h2>
 
-              <label for="fname">First Name</label>
+              <label for="fullname">Full Name</label>
               <input
                 type="text"
-                id="fname"
-                name="firstname"
-                placeholder="Your name.."
+                id="name"
+                name="fullname"
+                placeholder="Enter Your full name.."
               />
 
-              <label for="lname">Last Name</label>
+              <label for="lname">Mobile number</label>
               <input
-                type="text"
-                id="lname"
-                name="lastname"
-                placeholder="Your last name.."
+                type="number"
+                id="mobile"
+                name="phone"
+                placeholder="Enter your contact number"
               />
 
               <label for="property">Property Type</label>
@@ -373,6 +329,14 @@
               magnificen..
             </span>
             <span>-puja</span>
+          </div>
+          <div class="t">
+            <span><i class="ri-double-quotes-l"></i></span>
+            <span>
+              Greatly thankful to this property builder …Everything was done
+              magnificen..
+            </span>
+            <span>-raj</span>
           </div>
           <div class="t">
             <span><i class="ri-double-quotes-l"></i></span>
@@ -422,6 +386,7 @@
               <a href="#">Builders & Developers</a>
               <a href="#">Buy Properties</a>
               <a href="#">Finance Facilities</a>
+              <a href="#">Terms & Conditions</a>
             </div>
           </div>
         </div>
@@ -429,7 +394,7 @@
         <div class="row2 flex-d">
           <div class="companyname">
             <p>
-              All Rights Reserved. <strong>Magical Umbrella Real Estate</strong>
+              &copy; All Rights Reserved. <strong>Magical Umbrella Real Estate</strong>
             </p>
           </div>
           <div class="sm">

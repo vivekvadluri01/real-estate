@@ -27,3 +27,19 @@ function setValue(inputId, selectedValue) {
     inputField.value = selectedValue;
 }
 
+
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const contactForm = document.getElementById('e');
+
+    contactForm.addEventListener('submit', function (e) {
+        e.preventDefault(); // Prevent the form from submitting normally
+
+        // You can add code here to send the form data to your server or perform other actions.
+        // For this example, we'll just show a confirmation message.
+        alert('Thank you for contacting us! We will get back to you soon.');
+        contactForm.reset(); // Reset the form after submission
+    });
+});

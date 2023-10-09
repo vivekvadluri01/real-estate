@@ -22,9 +22,19 @@ body {
 .body {
   width: 100%;
 }
-
+a{
+  font-size: 1.4rem;
+  text-decoration: none !important;
+  color: black !important;
+}
 .flex-d {
   display: flex;
+}
+h2{
+  font-size: 1rem;
+}
+:root{
+  --primary-color: (green);
 }
 
 /* navbar styling */
@@ -34,14 +44,20 @@ body {
   height: 9vh;
   color: black;
   display: flex;
-  gap: 15rem;
+  padding-right: 1rem;
+  justify-content: space-between;
   border: 2px solid black;
   background-color: #fff;
   z-index: 1000;
 }
 .left img {
-  width: 14vh;
-  padding-left: 2rem;
+  width: auto;
+  padding-left: 1rem;
+}
+.left h4{
+  padding-top: 15px;
+  align-self: center;
+  color: rgb(14, 35, 171);
 }
 nav ul {
   margin-top: 1rem;
@@ -49,9 +65,8 @@ nav ul {
   display: flex;
   align-items: center;
   gap: 50px;
-  font-size: 20px;
 }
-nav ul a {
+nav ul  {
   font-weight: 1000;
   font-size: 22px;
   color: black;
@@ -59,7 +74,7 @@ nav ul a {
 }
 nav ul a:hover {
   background-color: black;
-  color: rgb(221, 214, 214);
+  color: white !important ;
   border-radius: 5PX;
   text-decoration: none;
   cursor: pointer;
@@ -105,6 +120,9 @@ nav ul a:hover {
   height: 6vh;
   width: 50%;
 }
+.input1 input{
+  padding-left: 1rem;
+}
 .input1 .searchinput {
   height: 6vh;
   width: 100%;
@@ -137,7 +155,7 @@ nav ul a:hover {
 }
 .contentBox {
   width: 100%;
-  display: none;
+  display: none; 
   position: absolute;
   background-color: #f1f1f1;
   min-width: 20rem;
@@ -145,10 +163,12 @@ nav ul a:hover {
 }
 
 .properties {
+  width: 90%;
   display: none;
   position: absolute;
   background-color: #f1f1f1;
   min-width: 8.1rem;
+  list-style: disc;
 }
 .dropdownproperty:hover .properties {
   display: block;
@@ -165,7 +185,7 @@ nav ul a:hover {
 
 }
 .search {
-  background-color: green;
+  background-color:green;
   border-radius: 14px;
   font-size: 23px;
   width: 8rem;
@@ -264,10 +284,9 @@ nav ul a:hover {
 #enquiry {
   position: sticky; 
   top: 4rem;
-   /* Stick to the top of the viewport */
-  background-color: #1a1a1a8b; /* Add background color for better visibility */
-  z-index: 100; /* Adjust the z-index as needed to layer it above other content */
-  padding: 20px; /* Add padding for spacing */
+  background-color: #1a1a1a8b;
+  z-index: 100;
+  padding: 20px;
 }
 .e{
   height: 100%;
@@ -294,17 +313,25 @@ nav ul a:hover {
   color: #fff;
   width: 20%;
 }
+.column1 p{
+  margin-top: 15px;
+}
 .column1 a{
-  color: #fff;
+  color: #fff !important;
 }
  .anchor{
   flex-direction: column;
   text-align: center;
 }
+.column3{
+  text-align: center;
+}
 
 .anchor a{
-  color: white;
-  text-decoration: none;
+  color: white !important;
+}
+ a:hover{
+  color: black !important;
 }
 
 .row2{
@@ -314,11 +341,11 @@ nav ul a:hover {
 }
 .row2 i{
   color: white;
-  font-size: xx-large;
+  font-size: 20px ;
 }
 
 .companyname{
-  font-size: x-large;
+  font-size: 15px;
   text-align: center;
 }
 .sm {
@@ -361,4 +388,7 @@ nav ul a:hover {
   height: 25vh;
   border: 2px solid black;
 }
+
+
+
 

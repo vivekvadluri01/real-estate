@@ -1,28 +1,28 @@
 
 
 // JavaScript code to toggle between 'container' and 'con'
-function togglecontainer() {
-  var container = document.querySelector('.container');
-  var con = document.querySelector('.con');
+function togglecon1() {
+  var con1 = document.querySelector('.con1');
+  var con2 = document.querySelector('.con2');
 
-  if ( container.style.display === 'none' ){
-    container.style.display = 'flex';
-    con.style.display = 'none';
+  if ( con1.style.display === 'none' ){
+    con1.style.display = 'flex';
+    con2.style.display = 'none';
   } else {
-    container.style.display = 'none';
-    con.style.display = 'flex';
+    con1.style.display = 'none';
+    con2.style.display = 'flex';
   }
 }
-function togglecon() {
-  var container = document.querySelector('.container');
-  var con = document.querySelector('.con');
+function togglecon2() {
+  var con1 = document.querySelector('.con1');
+  var con2 = document.querySelector('.con2');
 
-  if (con.style.display === 'none' ) {
-    con.style.display = 'flex';
-    container.style.display = 'none';
+  if (con2.style.display === 'none' ) {
+    con2.style.display = 'flex';
+    con1.style.display = 'none';
   } else {
-    con.style.display = 'none';
-    container.style.display = 'flex';
+    con2.style.display = 'none';
+    con1.style.display = 'flex';
   }
 }
 
@@ -54,3 +54,4 @@ function togglecon() {
       }
     });
   });
+  
